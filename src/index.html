@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift Simulation</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="input-Form">
+        <form>
+            <div id="input-Group">
+                <label>Enter Number Of Floor</label>
+                <input type="number" id="floor-number" value="0">
+            </div> 
+            <div id="input-Group">
+                <label>Enter Number Of Lifts</label>
+                <input type="number" id="lift-number" value="0">
+            </div> 
+            <input type="button" onclick="createLiftLayout()" value="Submit"> 
+        <form>
+    </div>
+
+    <div id="container">
+
+        <!-- <div id="floor-7" class="row floor">
+            <div class="row">
+            <button type="button" class="column" onclick="moveUp(7)">Down</button>
+            </div>
+            <div id="lift-holder" class="row">
+            </div>
+          </div>
+
+          <div id="floor-6" class="row floor">
+            <div class="row">
+            <button type="button" class="column" onclick="moveUp(6)">UP</button>
+            <button type="button" class="column" onclick="moveUp()">Down</button>
+            </div>
+            <div id="lift-holder" class="row">
+            </div>
+          </div>
+          <div id="floor-5" class="row floor">
+            <div class="row">
+            <button type="button" class="column" onclick="moveUp(5)">UP</button>
+            <button type="button" class="column" onclick="moveUp()">Down</button>
+            </div>
+            <div id="lift-holder" class="row">
+            </div>
+          </div>
+          <div id="floor-4" class="row floor">
+            <div class="row controller">
+            <button type="button" class="column" onclick="moveUp(4)">UP</button>
+            <button type="button" class="column" onclick="moveUp()">Down</button>
+            </div>
+            <div id="lift-holder" class="row">
+            </div>
+          </div>
+          <div id="floor-3" class="row floor">
+            <div class="row">
+            <button type="button" class="column" onclick="moveUp(3)">UP</button>
+            <button type="button" class="column" onclick="moveUp()">Down</button>
+            </div>
+            <div id="lift-holder" class="row">
+            </div>
+          </div>
+          <div id="floor-2" class="row floor">
+            <div class="row">
+            <button type="button" class="column" onclick="moveUp(2)">UP</button>
+            <button type="button" class="column" onclick="moveUp()">Down</button>
+            </div>
+            <div id="lift-holder" class="row">
+            </div>
+          </div>
+        <div id="floor-1" class="row floor">
+            <div class="row controller">
+            <button type="button" class="column" onclick="moveUp(1)">UP</button>
+            </div>
+            <div id="lift-holder" class="row">
+                <div id="lift-1" class="column lift" currentFloor="1" isbusy="false">
+                        <div class="left-door"></div>
+                        <div class="right-door"></div>
+                    </div>
+                    <div id="lift-2" class="column lift" currentFloor="1" isbusy="false">
+                        <div class="left-door"></div>
+                        <div class="right-door"></div>
+                    </div>
+                    <div id="lift-3" class="column lift" currentFloor="1" isbusy="false">
+                        <div class="left-door"></div>
+                        <div class="right-door"></div>
+                    </div>
+                    <div id="lift-4" class="column lift" currentFloor="1" isbusy="false">
+                        <div class="left-door"></div>
+                        <div class="right-door"></div>
+                    </div>
+            </div>
+        </div> -->
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>

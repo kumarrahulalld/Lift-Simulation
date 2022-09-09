@@ -1,0 +1,64 @@
+.row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .lift{
+    position:relative;
+    top:0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 100px;
+
+  }
+  @keyframes slidein-low  {
+    from {
+       top:0;
+    }
+    
+    to {
+       top:-100%;
+    }
+ 
+ }
+  .lift .left-door{
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    height: 100px;
+    border:1px solid black;
+    background-color: crimson;
+  }
+  .lift .right-door{
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    height: 100px;
+    border:1px solid black;
+    background-color: crimson;
+  }
+  button{
+    margin-top: auto;
+    margin-bottom: auto;
+   width: fit-content;
+   height: fit-content;
+  }
+  .floor{
+    width:100%;
+    height: 200px;
+    border-bottom: 1px solid black;
+  }
+  .controller{
+    width:100px;
+  }
+  #lift-1 :hover{
+    transition: top 3ms;
+  }
+  
